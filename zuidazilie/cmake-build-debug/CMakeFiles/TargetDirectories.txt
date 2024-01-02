@@ -1,0 +1,3 @@
+C:/Users/pinkykiller/CLionProjects/zuidazilie/cmake-build-debug/CMakeFiles/zuidazilie.dir
+C:/Users/pinkykiller/CLionProjects/zuidazilie/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/pinkykiller/CLionProjects/zuidazilie/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,4 @@
+"C:\Program Files\JetBrains\CLion 2023.1.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=E:/stmconfig/mingw64/bin/mingw32-make.exe -DCMAKE_C_COMPILER=E:/stmconfig/mingw64/bin/gcc.exe -DCMAKE_CXX_COMPILER=E:/stmconfig/mingw64/bin/g++.exe -G "CodeBlocks - MinGW Makefiles" -S C:\Users\pinkykiller\CLionProjects\zuidazilie -B C:\Users\pinkykiller\CLionProjects\zuidazilie\cmake-build-debug
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/pinkykiller/CLionProjects/zuidazilie/cmake-build-debug
