@@ -1,0 +1,3 @@
+C:/Users/pinkykiller/CLionProjects/tonggoushu/cmake-build-debug/CMakeFiles/tonggoushu.dir
+C:/Users/pinkykiller/CLionProjects/tonggoushu/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/pinkykiller/CLionProjects/tonggoushu/cmake-build-debug/CMakeFiles/rebuild_cache.dir
