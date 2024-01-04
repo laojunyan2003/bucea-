@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2023.1.3\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\cuncuntong.dir/objects.a
+E:\stmconfig\mingw64\bin\ar.exe qc CMakeFiles\cuncuntong.dir/objects.a @CMakeFiles\cuncuntong.dir\objects1
+E:\stmconfig\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\cuncuntong.dir/objects.a -Wl,--no-whole-archive -o cuncuntong.exe -Wl,--out-implib,libcuncuntong.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cuncuntong.dir\linkLibs.rsp
