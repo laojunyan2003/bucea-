@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2023.1.3\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\duilujin.dir/objects.a
+E:\stmconfig\mingw64\bin\ar.exe qc CMakeFiles\duilujin.dir/objects.a @CMakeFiles\duilujin.dir\objects1
+E:\stmconfig\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\duilujin.dir/objects.a -Wl,--no-whole-archive -o duilujin.exe -Wl,--out-implib,libduilujin.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\duilujin.dir\linkLibs.rsp
