@@ -2,10 +2,13 @@
 #include<string.h>
 #include<windows.h>
 #include<conio.h>
+#include <random>
+
 #define MAX_MA 1000
 #define MAX_ZF 100
 using namespace std;
-
+std::default_random_engine rand_gen;
+std::uniform_int_distribution<int> distrib(1, 100);
 //哈夫曼树的顺序储存表示
 typedef struct {
     int weight;  //结点的权值
@@ -47,10 +50,10 @@ void CreatHuffmanTree(HuffmanTree &HT,int n) {
         HT[i].lchild=0;
         HT[i].rchild=0;
     }
-    cout<<"请输入叶子结点的权值：";
+//    cout<<"请输入叶子结点的权值：";
     //输入前n个单元中叶子结点的权值
     for(int i=1; i<=n; ++i) {
-        cin>>HT[i].weight;
+       HT[i].weight=int(distrib(rand_gen));
     }
     //通过n-1次的选择、删除、合并来创建哈夫曼树
     for(int i=n+1; i<=m; ++i) {
@@ -135,14 +138,26 @@ void menu() {
     cout<<"\t\t*************************************************"<<endl;
     cout<<"\n\n\n";
     cout<<"正在为您跳转到主菜单，请稍等..."<<endl;
-    Sleep(2000);
     system("CLS");
     int n;//记录要编码的字符个数
     char a[MAX_MA];//储存输入的二进制字符
     char b[MAX_ZF];//存储译出的字符
     char zf[MAX_ZF];//储存要编码的字符
+    string word ;
+    int x=0;
+    char z;
     HuffmanTree HT=NULL;//初始化树为空树
     HuffmanCode HC=NULL;//初始化编码表为空表
+    system("CLS");
+//                    cout<<"请输入字符个数:";
+//                    cin>>n;
+    n=26;
+//                    cout<<"请依次输入"<<n<<"个字符: ";
+    for(int i=1; i<=n; i++)
+        zf[i]=char('a'-1+i);
+    CreatHuffmanTree(HT,n);
+    cout<<endl;
+    cout<<"创建哈夫曼成功！"<<endl;
     while(1) {
         system("date/t");
         system("time/t");
@@ -150,12 +165,13 @@ void menu() {
         cout<<"||                ★★★★★★★哈夫曼编码与译码★★★★★★★                ||\n";
         cout<<"||============================================================================||\n";
         cout<<"||============================================================================||\n";
-        cout<<"||                     【1】--- 创建哈夫曼树                                  ||\n";
-        cout<<"||                     【2】--- 进行哈夫曼编码                                ||\n";
-        cout<<"||                     【3】--- 进行哈夫曼译码                                ||\n";
-        cout<<"||                     【4】--- 退出程序                                      ||\n";
+//        cout<<"||                     【1】--- 随机生成权值生成哈夫曼树                                  ||\n";
+        cout<<"||                     【1】--- 进行哈夫曼编码                                ||\n";
+        cout<<"||                     【2】--- 进行哈夫曼译码                                ||\n";
+        cout<<"||                     【3】--- 退出程序                                      ||\n";
         cout<<" ==============================================================================\n";
         cout<<"请输入数字来选择对应的功能：";
+
         int num;
         if(!(cin>>num)) {
             system("CLS");
@@ -167,24 +183,6 @@ void menu() {
             switch(num) {
                 case 1:
                     system("CLS");
-                    cout<<"请输入字符个数:";
-                    cin>>n;
-                    cout<<"请依次输入"<<n<<"个字符: ";
-                    for(int i=1; i<=n; i++)
-                        cin>>zf[i];
-                    CreatHuffmanTree(HT,n);
-                    cout<<endl;
-                    cout<<"创建哈夫曼成功！下面是该哈夫曼树的参数输出："<<endl;
-                    cout<<endl;
-                    cout<<"结点"<<"\t"<<"字符"<<"\t"<<"权值"<<"\t"<<"双亲"<<"\t"<<"左孩子"<<"\t"<<"右孩子"<<endl;
-                    for(int i=1; i<=2*n-1; i++) {
-                        cout<<i<<"\t"<<zf[i]<<"\t"<<HT[i].weight<<"\t"<<HT[i].parent <<"\t"<< HT[i].lchild<<"\t"<<HT[i].rchild<<endl;
-                    }
-                    getch();
-                    system("CLS");
-                    break;
-                case 2:
-                    system("CLS");
                     HuffmanCoding(HT, HC, n);
                     cout<<"生成哈夫曼编码表成功！下面是该编码表的输出："<<endl;
                     cout<<endl;
@@ -192,16 +190,36 @@ void menu() {
                     for(int i=1; i<=n; i++) {
                         cout<<i<<"\t"<<zf[i]<<"\t"<<HT[i].weight<<"\t"<<HC[i]<<endl;
                     }
+//                    cout<<"输出你的文字："<<endl;
+//                    while(getline(cin,word)){
+//                    }
+//                    x=word.length();
+//                    cout<<x;
+//                    for(int i=0;i<x+1;i++) cout<<word[i]<<" ";
+                    for(int i=1; i<=x ; i++) {
+                        cout<<i<<"\t"<<zf[i]<<"\t"<<HT[i].weight<<"\t"<<HC[i]<<endl;
+                    }
+                    std::cout << "请输入一段文字（按回车键结束）: ";
+                    std::cin >> word;
+                    std::cout << "你输入的文字是: " << word << std::endl;
+                    for(int i=0; i<= word.length()-1 ; i++) {
+                        cout<<int(word[i]-'a'+1)<<"\t"<<word[i]<<"\t"<<HT[int(word[i]-'a'+1)].weight<<"\t"<<HC[int(word[i]-'a'+1)]<<endl;
+                    }
+                    for(int i=0; i<= word.length()-1 ; i++) {
+                        cout<<HC[int(word[i]-'a'+1)];
+                    }
                     getch();
                     system("CLS");
                     break;
-                case 3:
-                    system(
+                case 2:
+                    system("CLS");
+                    cout<<"请输入想要翻译的一串二进制编码：";
+                    cin>>a;
                     HuffmanDecoding(HT,a,zf,b,n);
                     cout<<"译码成功！翻译结果为："<<b<<endl;
                     getch();
                     break;
-                case 4:
+                case 3:
                     cout<<"\n\n\n\n\n";
                     cout<<"\t\t*************************************************"<<endl;
                     cout<<"\t\t******                                     ******"<<endl;
@@ -219,7 +237,7 @@ void menu() {
 }
 
 int main() {
-    system("color 3A");
+//    system("color 3A");
     menu();
     return 0;
 }

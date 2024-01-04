@@ -342,7 +342,38 @@ CMakeFiles/hf.dir/main.cpp.obj: C:/Users/pinkykiller/CLionProjects/hf/main.cpp \
   E:/stmconfig/mingw64/x86_64-w64-mingw32/include/mcx.h \
   E:/stmconfig/mingw64/x86_64-w64-mingw32/include/imm.h \
   E:/stmconfig/mingw64/x86_64-w64-mingw32/include/conio.h \
-  E:/stmconfig/mingw64/x86_64-w64-mingw32/include/sec_api/conio_s.h
+  E:/stmconfig/mingw64/x86_64-w64-mingw32/include/sec_api/conio_s.h \
+  E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/random \
+  E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cmath \
+  E:/stmconfig/mingw64/x86_64-w64-mingw32/include/math.h \
+  E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/specfun.h \
+  E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/gamma.tcc \
+  E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/special_function_util.h \
+  E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/bessel_function.tcc \
+  E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/special_function_util.h \
+  E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/beta_function.tcc \
+  E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/ell_integral.tcc \
+  E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/exp_integral.tcc \
+  E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/hypergeometric.tcc \
+  E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/legendre_function.tcc \
+  E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/modified_bessel_func.tcc \
+  E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/poly_hermite.tcc \
+  E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/poly_laguerre.tcc \
+  E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/riemann_zeta.tcc \
+  E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/random.h \
+  E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/vector \
+  E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_construct.h \
+  E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_uninitialized.h \
+  E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/utility \
+  E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_relops.h \
+  E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h \
+  E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h \
+  E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc \
+  E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uniform_int_dist.h \
+  E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/opt_random.h \
+  E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/random.tcc \
+  E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/numeric \
+  E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_numeric.h
 
 
 E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/concept_check.h:
@@ -397,6 +428,8 @@ E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/x86intrin.h:
 
 E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/localefwd.h:
 
+E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_construct.h:
+
 E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwchar:
 
 E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/predefined_ops.h:
@@ -442,6 +475,8 @@ E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/typeinfo:
 E:/stmconfig/mingw64/x86_64-w64-mingw32/include/pshpack8.h:
 
 E:/stmconfig/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h:
+
+E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h:
 
 E:/stmconfig/mingw64/x86_64-w64-mingw32/include/swprintf.inl:
 
@@ -609,7 +644,11 @@ E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_str
 
 E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/alloc_traits.h:
 
+E:/stmconfig/mingw64/x86_64-w64-mingw32/include/math.h:
+
 E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/alloc_traits.h:
+
+E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/gamma.tcc:
 
 E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/string_view:
 
@@ -629,9 +668,13 @@ E:/stmconfig/mingw64/x86_64-w64-mingw32/include/_timeval.h:
 
 E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdlib:
 
+E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/random.tcc:
+
 E:/stmconfig/mingw64/x86_64-w64-mingw32/include/stdlib.h:
 
 E:/stmconfig/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h:
+
+E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc:
 
 E:/stmconfig/mingw64/x86_64-w64-mingw32/include/conio.h:
 
@@ -654,6 +697,8 @@ E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_cl
 E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/system_error:
 
 E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h:
+
+E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_relops.h:
 
 E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fmaintrin.h:
 
@@ -711,7 +756,11 @@ E:/stmconfig/mingw64/x86_64-w64-mingw32/include/jobapi.h:
 
 E:/stmconfig/mingw64/x86_64-w64-mingw32/include/windows.h:
 
+E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/random.h:
+
 E:/stmconfig/mingw64/x86_64-w64-mingw32/include/sdkddkver.h:
+
+E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_numeric.h:
 
 E:/stmconfig/mingw64/x86_64-w64-mingw32/include/excpt.h:
 
@@ -768,6 +817,8 @@ E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/immintrin.h:
 E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmi2intrin.h:
 
 E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx2intrin.h:
+
+E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/legendre_function.tcc:
 
 E:/stmconfig/mingw64/x86_64-w64-mingw32/include/rpcdce.h:
 
@@ -1020,3 +1071,43 @@ E:/stmconfig/mingw64/x86_64-w64-mingw32/include/mcx.h:
 E:/stmconfig/mingw64/x86_64-w64-mingw32/include/imm.h:
 
 E:/stmconfig/mingw64/x86_64-w64-mingw32/include/sec_api/conio_s.h:
+
+E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/random:
+
+E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cmath:
+
+E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/specfun.h:
+
+E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/special_function_util.h:
+
+E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/bessel_function.tcc:
+
+E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/beta_function.tcc:
+
+E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/ell_integral.tcc:
+
+E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/exp_integral.tcc:
+
+E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/hypergeometric.tcc:
+
+E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/modified_bessel_func.tcc:
+
+E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/poly_hermite.tcc:
+
+E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/poly_laguerre.tcc:
+
+E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/riemann_zeta.tcc:
+
+E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/vector:
+
+E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_uninitialized.h:
+
+E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/utility:
+
+E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h:
+
+E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uniform_int_dist.h:
+
+E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/opt_random.h:
+
+E:/stmconfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/numeric:
