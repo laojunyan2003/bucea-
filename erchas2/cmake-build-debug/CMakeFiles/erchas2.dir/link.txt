@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2023.1.3\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\erchas2.dir/objects.a
+E:\stmconfig\mingw64\bin\ar.exe qc CMakeFiles\erchas2.dir/objects.a @CMakeFiles\erchas2.dir\objects1
+E:\stmconfig\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\erchas2.dir/objects.a -Wl,--no-whole-archive -o erchas2.exe -Wl,--out-implib,liberchas2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\erchas2.dir\linkLibs.rsp

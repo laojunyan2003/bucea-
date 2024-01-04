@@ -1,0 +1,3 @@
+C:/Users/pinkykiller/CLionProjects/erchas2/cmake-build-debug/CMakeFiles/erchas2.dir
+C:/Users/pinkykiller/CLionProjects/erchas2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/pinkykiller/CLionProjects/erchas2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
