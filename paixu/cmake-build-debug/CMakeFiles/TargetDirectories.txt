@@ -1,0 +1,3 @@
+C:/Users/pinkykiller/CLionProjects/paixu/cmake-build-debug/CMakeFiles/paixu.dir
+C:/Users/pinkykiller/CLionProjects/paixu/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/pinkykiller/CLionProjects/paixu/cmake-build-debug/CMakeFiles/rebuild_cache.dir
